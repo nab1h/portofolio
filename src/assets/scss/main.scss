@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@2,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:slnt,wdth,wght@-10,86.5,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Science Gothic", sans-serif;
+}
+:root {
+  --white-color: #ffffff;
+  --primary-color: #13547a;
+  --secondary-color: #80d0c7;
+  --section-bg-color: #f0f8ff;
+  --custom-btn-bg-color: #80d0c7;
+  --custom-btn-bg-hover-color: #13547a;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #7fffd4;
+  --link-hover-color: #13547a;
+
+  --body-font-family: "Open Sans", sans-serif;
+  --title-font-family: "Montserrat", sans-serif;
+
+  --h1-font-size: 58px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 20px;
+  --menu-font-size: 14px;
+  --btn-font-size: 18px;
+  --copyright-font-size: 16px;
+
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+#section_1 {
+  background: url("@/assets/img/bannar.jpg") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 20%;
+  background-size: cover;
+  z-index: -2;
+}
+#section_1::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  min-height: 100vh;
+  background-color: #80d0c76b;
+  z-index: -1;
+}
+#section_1 {
+  height: 100vh;
+}
+#services {
+  position: static;
+  position: relative;
+  background: url("@/assets/img/banner-services.jpg") no-repeat;
+  // height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+#services::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  min-height: 100vh;
+  background-color: #80d0c759;
+  z-index: 0;
+}

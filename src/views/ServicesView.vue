@@ -5,14 +5,10 @@
 
       <div class="row gy-5">
         <div
-          class="content col-xl-5 d-flex flex-column"
+          class="col-sm-12 col-lg-12 cards pt-4"
           data-aos="fade-up"
-          data-aos-delay="100"
+          data-aos-delay="200"
         >
-          <h3>فني كهربائي في دبي، الشارقة، عجمان</h3>
-        </div>
-
-        <div class="col-xl-7 cards pt-4" data-aos="fade-up" data-aos-delay="200">
           <div class="row gy-4">
             <ServicesCart />
             <!-- Icon-Box -->
@@ -43,7 +39,7 @@ export default {
 </script>
 
 <style scoped>
-.cards{
+.cards {
   z-index: 5;
 }
 h3 {

@@ -6,30 +6,14 @@
         <div class="row d-flex p-0 m-0">
           <div class="col col-12 col-sm-6 col-lg-6 p-0 m-0 mt-5 pt-5">
             <ul class="m-0 p-0 pe-4 ps-2">
-              <li>
-                <span>فني محترف :</span> ذو خبرة طويلة في جميع مجالات صيانة
-                الكهرباء المنازل.
-              </li>
-              <li>
-                <span>خدمة 24 ساعة : </span> جاهزون لخدمتك في أي وقت داخل دبي،
-                الشارقة، وعجمان.
-              </li>
-              <li>
-                <span>أسعار منافسة : </span> نقدم خدمات عالية الجودة بأسعار
-                تناسب الجميع.
-              </li>
-              <li>
-                <span>معدات حديثة : </span> نستخدم أدوات حديثة تضمن الدقة
-                والأمان في العمل.
-              </li>
-              <li>
-                <span>دعم مستمر : </span> تواصل معنا في أي وقت عبر الهاتف أو
-                الواتساب لحجز خدمتك فورًا.
-              </li>
+              <li>فنيون محترفون وذو خبرة</li>
+              <li>استخدام أفضل المواد وأحدث التقنيات</li>
+              <li>التزام بالمواعيد وجودة العمل</li>
+              <li>دعم كامل وخدمة عملاء على مدار الساعة</li>
             </ul>
           </div>
           <div class="col img col-12 col-sm-6 col-lg-5 p-0 m-0 mt-5">
-            <img class="img-about" src="@/assets/img/bannar-about.jpg" alt="" />
+            <img class="img-about" src="@/assets/img/team.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -68,14 +52,12 @@ export default {
 ul {
   list-style: none;
   li {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    span {
-      font-weight: bold;
-    }
+    font-weight: 800;
   }
 }
 </style>

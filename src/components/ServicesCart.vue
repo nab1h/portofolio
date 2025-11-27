@@ -8,7 +8,7 @@
       <img :src="card.img" class="card-img-top service-img" alt="service" />
 
       <div class="card-body text-center">
-        <h5 class="card-title fw-bold">{{ card.title }}</h5>
+        <h2 class="card-title fw-bold">{{ card.title }}</h2>
         <p class="card-text text-muted">{{ card.desc }}</p>
       </div>
     </div>
@@ -22,24 +22,24 @@ export default {
     return {
       cards: [
         {
-          title: "صيانة كهرباء",
+          title: "أعمال الكهرباء",
           desc: "حل جميع أعطال الكهرباء المنزلية.",
           img: require("@/assets/img/bannar-about.jpg"),
         },
         {
-          title: "تركيب مفاتيح ولوحات",
-          desc: "تركيب آمن للمفاتيح والبريزة واللوحات.",
-          img: require("@/assets/img/df.jpg"),
+          title: " أعمال البناء والترميم",
+          desc: "بناء وعمال بناء واعمال المحارة.",
+          img: require("@/assets/img/builder.jpg"),
         },
         {
-          title: "تمديدات كهربائية",
-          desc: "تنفيذ تمديدات كاملة للمنازل والشقق.",
-          img: require("@/assets/img/ff.jpg"),
+          title: "خدمات الدهانات",
+          desc: " دهانات داخلية وخارجية بتشطيبات فاخرة",
+          img: require("@/assets/img/pointer.jpg"),
         },
         {
-          title: "كشف الأعطال",
-          desc: "كشف الأعطال باستخدام أجهزة حديثة.",
-          img: require("@/assets/img/d.png"),
+          title: "أعمال السباكة",
+          desc: "معالجة تسريبات، تركيب مواسير وأدوات صحية وصيانة شاملة",
+          img: require("@/assets/img/plumber.jpg"),
         },
       ],
     };

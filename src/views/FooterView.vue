@@ -54,13 +54,20 @@
         </div>
 
         <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-          <p class="copyright-text mt-lg-5 mt-4">
-            Copyright © 2026 Topic Listing Center. All rights reserved.
-            <br /><br />Design:
-            <a rel="nofollow" href="https://www.facebook.com/nab1h" target="_blank"
-              >Nabih Alashmawy</a
-            >
-          </p>
+          <div
+            class="h-100 w-100 "
+          >
+            <p class="copyright-text text-muted mt-lg-5 mt-4 ">
+              Copyright © 2026 Topic Listing Center. All rights reserved.
+              <br /><br />Design:
+              <a
+                rel="nofollow"
+                href="https://www.facebook.com/nab1h"
+                target="_blank"
+                >Nabih Alashmawy</a
+              >
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -90,6 +97,7 @@ export default {
   border-width: 0 0 200px 200px;
   border-color: transparent transparent var(--secondary-color) transparent;
   pointer-events: none;
+  z-index: -1;
 }
 
 .site-footer-title {
@@ -99,18 +107,23 @@ export default {
 
 .site-footer-links {
   padding-left: 0;
+  z-index: 4;
 }
-.site-footer-link-en{
+.site-footer-link-en {
   color: var(--secondary-color);
   line-height: normal;
   text-decoration: none;
   font-weight: 300;
+  z-index: 4;
+
 }
 
 .site-footer-link-item {
   display: block;
   list-style: none;
   line-height: normal;
+  z-index: 4;
+
 }
 
 .site-footer-link {
@@ -120,10 +133,9 @@ export default {
   line-height: normal;
   text-decoration: none;
   font-weight: 500;
-
 }
 
 .copyright-text {
-  font-size: var(--copyright-font-size);
+  font-size: 15px;
 }
 </style>

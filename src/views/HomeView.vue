@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-8 col-12 mx-auto">
           <h1 class="text-white text-center">{{ addres }}</h1>
-          <h6 class="text-center text-white">{{ title }}</h6>
+          <h2 class="text-center text-white">{{ title }}</h2>
           <a href="tel:+971555461048" class="btn btn-call mt-5 d-block p-2"
             >إتــــصــــــــل بــــــنــا</a
           >
@@ -44,8 +44,8 @@ export default {
   },
   data() {
     return {
-      addres: "فني كهربائي  خدمات كهرباء موثوقة وسريعة",
-      title: "دبي و عجمان",
+      addres: "مرحبًا بك في الإسلامية شريكك الموثوق لخدمات البناء والصيانة في دبي",
+      title: "في الإسلامية نقدّم لك مجموعة متكاملة من خدمات البناء، الدهانات، الكهرباء، والسباكة بجودة عالية ومعايير احترافية تناسب جميع احتياجات المنازل والشركات داخل دبي.",
     };
   },
 };

@@ -96,7 +96,7 @@ export default {
   pointer-events: none;
   z-index: -1;
 }
-.navbar-brand h1{
+.navbar-brand h1 {
   font-weight: bold;
 }
 .site-footer-title {

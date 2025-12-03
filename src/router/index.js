@@ -15,27 +15,36 @@ const routes = [
     path: "/about",
     name: "about",
     component: AboutView,
+    meta: { title: "من نحن | الإسلامية" },
   },
   {
     path: "/services",
     name: "services",
     component: ServicesView,
+    meta: { title: "خدماتنا | الإسلامية" },
   },
   {
     path: "/reviews",
     name: "reviews",
     component: ReviewsView,
+
+    meta: { title: "آراء العملاء | الإسلامية" },
   },
   {
     path: "/contact",
     name: "contact",
     component: ContactView,
+    meta: { title: "تواصل معنا | الإسلامية" },
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+});
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || "الإسلامية";
+  next();
 });
 
 export default router;

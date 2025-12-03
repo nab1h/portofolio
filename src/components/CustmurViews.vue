@@ -1,7 +1,5 @@
 <template>
-  <div class="row g-4">
-    
-  </div>
+  <div class="row g-4"></div>
 </template>
 
 <script>
@@ -10,5 +8,3 @@ export default {
   ,
 };
 </script>
-
-

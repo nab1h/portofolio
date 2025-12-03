@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-content-center">
     <div class="mt-5">
-      <h2 :style="{color:color}">{{ Addres }}</h2>
+      <h2 :style="{ color: color }">{{ Addres }}</h2>
     </div>
   </div>
 </template>
@@ -13,10 +13,10 @@ export default {
     Addres: {
       type: String,
     },
-    color:{
-        type: String,
-        default: "#000",
-    }
+    color: {
+      type: String,
+      default: "#000",
+    },
   },
 };
 </script>

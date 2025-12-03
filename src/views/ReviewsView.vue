@@ -1,7 +1,8 @@
 <template>
   <section id="reviews">
     <div class="container" >
-      <addres-pages :-addres="addres" />
+      <addres-pages :-addres="addres" data-aos="fade-up"
+     data-aos-duration="1000"/>
       <div class="d-flex flex-column justify-content-center align-items-center" data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
